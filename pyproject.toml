@@ -1,0 +1,12 @@
+[project]
+name = "telegram"
+version = "0.1.0"
+description = "Bot Telegram de détection de personnes avec YOLO"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pillow>=12.0.0",
+    "python-telegram-bot>=22.5",
+    "ultralytics>=8.0.0",
+    "numpy>=1.26.0",
+]
